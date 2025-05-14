@@ -11,24 +11,37 @@ This project visualizes economic data related to contraceptive access and potent
 - Rural vs. urban contraceptive access gaps
 - Interactive economic impact calculator
 
+## How to Use
+
+The website is deployed on GitHub Pages and can be accessed at: [https://your-username.github.io/contraceptive-economics-app/](https://your-username.github.io/contraceptive-economics-app/)
+
+## Project Structure
+
+This project uses a simple structure:
+- `index.html` - The main HTML file that loads React and other dependencies
+- `app.jsx` - The React component that contains all the visualization logic
+
 ## Technologies Used
 
-- React (via CDN)
+- React 18 (loaded via CDN)
 - Recharts for data visualization
 - Tailwind CSS for styling
 - Babel for JSX transformation
 
-## View the Live Site
+## Local Development
 
-This project is deployed using GitHub Pages. You can view it at: [https://your-username.github.io/contraceptive-economics-app/](https://your-username.github.io/contraceptive-economics-app/)
-
-## Development
-
-This is a static web application that uses CDN-loaded libraries, so no build step is required.
-
-To run locally:
+To run this project locally:
 1. Clone the repository
-2. Open index.html in a browser or use a local server
+2. Open index.html in a browser or use a simple HTTP server (e.g., `python -m http.server 8081`)
+3. Visit `http://localhost:8081` in your browser
+
+## GitHub Pages Setup
+
+To deploy this on GitHub Pages:
+1. Push the code to your GitHub repository
+2. Go to the repository settings
+3. In the "Pages" section, select the "main" branch and click "Save"
+4. Your site will be published at `https://your-username.github.io/repository-name/`
 
 ## Research & Data Sources
 
